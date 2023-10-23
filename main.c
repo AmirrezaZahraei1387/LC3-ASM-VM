@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <signal.h>
 
+#include "loader/loader.h"
 #include "data/regisiter.h"
 #include "data/opcodes.h"
 #include "data/confl.h"
