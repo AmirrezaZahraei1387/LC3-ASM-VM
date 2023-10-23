@@ -1,0 +1,3 @@
+E:/Github-Repos/LC3-ASM-VM/cmake-build-debug/CMakeFiles/LC3_ASM_VM.dir
+E:/Github-Repos/LC3-ASM-VM/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Github-Repos/LC3-ASM-VM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
