@@ -100,7 +100,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -120,6 +121,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "data/regisiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "data/opcodes.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],
