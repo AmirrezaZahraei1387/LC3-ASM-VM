@@ -20,5 +20,5 @@ enum
     R_COUNT
 };
 
-uint16_t reg[R_COUNT];
+extern uint16_t reg[R_COUNT];
 #endif //LC3_ASM_VM_REGISITER_H

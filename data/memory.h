@@ -6,5 +6,5 @@
 #include <stdint.h>
 
 #define MEMORY_MAX (1 << 16)
-uint16_t memory[MEMORY_MAX];  // 65536 locations
+extern uint16_t memory[MEMORY_MAX];  // 65536 locations
 #endif //LC3_ASM_VM_MEMORY_H
