@@ -67,6 +67,18 @@ build CMakeFiles/LC3_ASM_VM.dir/spec/spec.c.obj: C_COMPILER__LC3_ASM_VM_Debug E$
   OBJECT_DIR = CMakeFiles\LC3_ASM_VM.dir
   OBJECT_FILE_DIR = CMakeFiles\LC3_ASM_VM.dir\spec
 
+build CMakeFiles/LC3_ASM_VM.dir/trap/trape.c.obj: C_COMPILER__LC3_ASM_VM_Debug E$:/Github-Repos/LC3-ASM-VM/trap/trape.c || cmake_object_order_depends_target_LC3_ASM_VM
+  DEP_FILE = CMakeFiles\LC3_ASM_VM.dir\trap\trape.c.obj.d
+  FLAGS = -g -std=gnu2x
+  OBJECT_DIR = CMakeFiles\LC3_ASM_VM.dir
+  OBJECT_FILE_DIR = CMakeFiles\LC3_ASM_VM.dir\trap
+
+build CMakeFiles/LC3_ASM_VM.dir/trap/trapin.c.obj: C_COMPILER__LC3_ASM_VM_Debug E$:/Github-Repos/LC3-ASM-VM/trap/trapin.c || cmake_object_order_depends_target_LC3_ASM_VM
+  DEP_FILE = CMakeFiles\LC3_ASM_VM.dir\trap\trapin.c.obj.d
+  FLAGS = -g -std=gnu2x
+  OBJECT_DIR = CMakeFiles\LC3_ASM_VM.dir
+  OBJECT_FILE_DIR = CMakeFiles\LC3_ASM_VM.dir\trap
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LC3_ASM_VM
@@ -75,7 +87,7 @@ build CMakeFiles/LC3_ASM_VM.dir/spec/spec.c.obj: C_COMPILER__LC3_ASM_VM_Debug E$
 #############################################
 # Link the executable LC3_ASM_VM.exe
 
-build LC3_ASM_VM.exe: C_EXECUTABLE_LINKER__LC3_ASM_VM_Debug CMakeFiles/LC3_ASM_VM.dir/main.c.obj CMakeFiles/LC3_ASM_VM.dir/instr/instr.c.obj CMakeFiles/LC3_ASM_VM.dir/spec/spec.c.obj
+build LC3_ASM_VM.exe: C_EXECUTABLE_LINKER__LC3_ASM_VM_Debug CMakeFiles/LC3_ASM_VM.dir/main.c.obj CMakeFiles/LC3_ASM_VM.dir/instr/instr.c.obj CMakeFiles/LC3_ASM_VM.dir/spec/spec.c.obj CMakeFiles/LC3_ASM_VM.dir/trap/trape.c.obj CMakeFiles/LC3_ASM_VM.dir/trap/trapin.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LC3_ASM_VM.dir
