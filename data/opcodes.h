@@ -1,8 +1,8 @@
 //
 // Created by KAVOSH on 10/22/2023.
 //
-#ifndef LC3_ASM_VM_OPCODES_HPP
-#define LC3_ASM_VM_OPCODES_HPP
+#ifndef LC3_ASM_VM_OPCODES_H
+#define LC3_ASM_VM_OPCODES_H
 enum
 {
     OP_BR = 0, // branch
@@ -22,4 +22,4 @@ enum
     OP_LEA,    // load effective address
     OP_TRAP    // execute trap
 };
-#endif //LC3_ASM_VM_OPCODES_HPP
+#endif //LC3_ASM_VM_OPCODES_H
