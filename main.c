@@ -10,6 +10,8 @@
 #include "trap/trape.h"
 #include "instr/instr.h"
 
+uint16_t reg[R_COUNT];
+
 int main(int argc, const char* argv[]) {
     if (argc < 2)
     {

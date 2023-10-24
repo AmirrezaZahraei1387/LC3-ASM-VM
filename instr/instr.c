@@ -8,6 +8,7 @@
 #include "instr.h"
 #include "../data/regisiter.h"
 
+
 void ADD(uint16_t instr){
     uint16_t r0 = (instr >> 9) & 0x7;
     uint16_t r1 = (instr >> 6) & 0x7;

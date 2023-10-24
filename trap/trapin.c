@@ -4,10 +4,12 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "../spec/spec.h"
 #include "trapin.h"
-#include "../data/regisiter.h"
 #include "../data/memory.h"
+#include "../spec/spec.h"
+#include "../data/regisiter.h"
+
+uint16_t memory[MEMORY_MAX];
 
 
 void PUTS(){

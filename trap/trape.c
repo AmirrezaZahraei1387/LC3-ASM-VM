@@ -3,8 +3,8 @@
 //
 #include <stdint.h>
 
-#include "trapin.h"
 #include "trape.h"
+#include "trapin.h"
 #include "../data/regisiter.h"
 #include "../data/trapr.h"
 
