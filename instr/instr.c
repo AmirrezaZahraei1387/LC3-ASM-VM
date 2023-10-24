@@ -87,6 +87,7 @@ void LOAD_EF_MEM(uint16_t instr){
     update_flags(r0);
 }
 
+
 void STORE(uint16_t instr){
     uint16_t r0 = (instr >> 9) & 0x7;
     uint16_t pc_offset = sign_extend(instr & 0x1FF, 9);
