@@ -1,3 +1,13 @@
 # ninja log v5
-0	99	7197305644296828	CMakeFiles/LC3_ASM_VM.dir/main.c.obj	8961fb84abbeeee
+2	801	7198089266700135	CMakeFiles/LC3_ASM_VM.dir/main.c.obj	8961fb84abbeeee
+27	344	7198085252920276	CMakeFiles/LC3_ASM_VM.dir/spec/spec.c.obj	eeb8628b93289af5
 100	244	7197305645616039	LC3_ASM_VM.exe	34006fd98a5576f3
+44	331	7198085252766626	CMakeFiles/LC3_ASM_VM.dir/loader/loader.c.obj	f3d4c269809cb5c4
+1	187	7198090619591606	build.ninja	f3f284fb10663db
+35	332	7198085252776630	CMakeFiles/LC3_ASM_VM.dir/trap/trapin.c.obj	c12f978c419f72cd
+17	802	7198089266700135	CMakeFiles/LC3_ASM_VM.dir/memmap/memac.c.obj	c69e4cfb67bb5867
+10	816	7198089266866078	CMakeFiles/LC3_ASM_VM.dir/instr/instr.c.obj	3b3a5fc86b6778cd
+22	119	7198085476416911	CMakeFiles/LC3_ASM_VM.dir/trap/trape.c.obj	2273024033d89d26
+11	801	7198091684598164	CMakeFiles/LC3_ASM_VM.dir/main.c.obj	8961fb84abbeeee
+2	811	7198091684720355	CMakeFiles/LC3_ASM_VM.dir/instr/instr.c.obj	3b3a5fc86b6778cd
+18	839	7198091685000210	CMakeFiles/LC3_ASM_VM.dir/memmap/memac.c.obj	c69e4cfb67bb5867

@@ -3,6 +3,7 @@
 //
 #include <stdint.h>
 
+#include "../memmap/memac.h"
 #include "../spec/spec.h"
 #include "instr.h"
 #include "../data/regisiter.h"
@@ -103,4 +104,34 @@ void STORE_REG(uint16_t instr){
     uint16_t r1 = (instr >> 6) & 0x7;
     uint16_t offset = sign_extend(instr & 0x3F, 6);
     mem_write(reg[r1] + offset, reg[r0]);
+}
+
+void AND(uint16_t instr){
+    uint16_t r0 = (instr >> 9) & 0x7;
+    uint16_t r1 = (instr >> 6) & 0x7;
+    uint16_t imm_flag = (instr >> 5) & 0x1;
+
+    if (imm_flag)
+    {
+        uint16_t imm5 = sign_extend(instr & 0x1F, 5);
+        reg[r0] = reg[r1] & imm5;
+    }
+    else
+    {
+        uint16_t r2 = instr & 0x7;
+        reg[r0] = reg[r1] & reg[r2];
+    }
+    update_flags(r0);
+}
+
+void LOAD_IN(uint16_t instr){
+
+    /* destination register (DR) */
+    uint16_t r0 = (instr >> 9) & 0x7;
+    /* PCoffset 9*/
+    uint16_t pc_offset = sign_extend(instr & 0x1FF, 9);
+    /* add pc_offset to the current PC, look at that memory location to get the final address */
+    reg[r0] = mem_read(mem_read(reg[R_PC] + pc_offset));
+    update_flags(r0);
+
 }

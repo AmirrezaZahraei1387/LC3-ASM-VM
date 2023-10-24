@@ -25,4 +25,9 @@ void STORE(uint16_t instr);
 void STORE_IN(uint16_t instr);
 
 void STORE_REG(uint16_t instr);
+
+void AND(uint16_t instr);
+
+void LOAD_IN(uint16_t instr);
 #endif //LC3_ASM_VM_INSTR_H
+
